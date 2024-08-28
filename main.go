@@ -87,6 +87,9 @@ func main() {
 
 	auth := gremlingo.NewDynamicAuth(gen)
 
+	fmt.Println("Connecting to Neptune endpoint: ", connString)
+	fmt.Println("Using auth: ", auth)
+
 	driverRemoteConnection, err := gremlingo.NewDriverRemoteConnection(connString,
 		func(settings *gremlingo.DriverRemoteConnectionSettings) {
 			settings.TraversalSource = "g"
