@@ -23,6 +23,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.27.31
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.1 // indirect
+	github.com/neo4j/neo4j-go-driver/v5 v5.23.1
 	github.com/nicksnyder/go-i18n/v2 v2.4.0 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
